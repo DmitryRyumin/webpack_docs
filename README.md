@@ -1,5 +1,10 @@
 # Webpack - `сборщик проекта`
 
+![GitHub top language](https://img.shields.io/github/languages/top/DmitryRyumin/webpack_docs)
+![GitHub repo size](https://img.shields.io/github/repo-size/DmitryRyumin/webpack_docs)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/DmitryRyumin/webpack_docs)
+![GitHub last commit](https://img.shields.io/github/last-commit/DmitryRyumin/webpack_docs)
+
 ## Необходимо установить/обновить
 
 - [NodeJS](https://nodejs.org/ru/)
