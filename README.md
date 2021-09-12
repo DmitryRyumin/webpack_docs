@@ -1,4 +1,4 @@
-# Webpack - `сборщик проекта`
+# Webpack
 
 ![GitHub top language](https://img.shields.io/github/languages/top/DmitryRyumin/webpack_docs)
 ![GitHub repo size](https://img.shields.io/github/repo-size/DmitryRyumin/webpack_docs)
