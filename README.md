@@ -65,17 +65,15 @@ npm run stats
 ## [Плагины](https://webpack.js.org/plugins/)
 
 - `npm install --save-dev html-webpack-plugin` - взаимодействие с HTML ([параметры](https://github.com/jantimon/html-webpack-plugin#options))
-- `npm install --save-dev clean-webpack-plugin` - удаление/очистка папок сборки ([параметры](https://github.com/johnagan/clean-webpack-plugin#options-and-defaults-optional))
 - `npm install --save-dev copy-webpack-plugin` - копирование отдельных файлов или директорий, которые уже существуют, в каталог сборки ([параметры](https://webpack.js.org/plugins/copy-webpack-plugin/#options))
 - `npm install --save-dev mini-css-extract-plugin` - извлечение CSS в отдельные файлы ([параметры](https://webpack.js.org/plugins/mini-css-extract-plugin/#plugin-options))
-- `npm install --save-dev optimize-css-assets-webpack-plugin` - оптимизации/минимизации CSS файлов
+- `npm install --save-dev css-minimizer-webpack-plugin` - оптимизации/минимизации CSS файлов
 - `npm install --save-dev eslint babel-eslint eslint-webpack-plugin` - статический анализ кода
 
 ## [Загрузчики](https://webpack.js.org/loaders/) - работа с другими типами данных отличными от `JS`
 
 - `npm install --save-dev style-loader` - добавление стилей в секцию `HEAD` файла `HTML`
 - `npm install --save-dev css-loader` - импорт стилей в `JS` файл
-- `npm install --save-dev file-loader` - отправка файла в директорию вывода и возврат его относительный `URL-адрес`
 - `npm install --save-dev xml-loader` - загрузка `XML` файлов
 - `npm install --save-dev csv-loader` - загрузка `CSV` файлов
 - `npm install --save-dev less-loader` - компиляция `Less` в `CSS`
@@ -89,7 +87,7 @@ npm run stats
 - `npm install --save-dev cross-env` - кроссплатформенная установка переменных сред
 - `npm install --save-dev less` - `Less`
 - `npm install --save-dev sass` - `Sass`
-- `npm install --save-dev babel-loader @babel/core @babel/preset-env @babel/preset-typescript @babel/plugin-transform-runtime @babel/plugin-proposal-class-properties` - `Babel` с пресетами и плагинами
+- `npm install --save-dev babel-loader @babel/core @babel/preset-env @babel/plugin-transform-runtime @babel/plugin-proposal-class-properties` - `Babel` с пресетами и плагинами
 - `npm install --save core-js` - стандартная библиотека `JS` включающая полифилы
 - `npm install --save-dev webpack-bundle-analyzer` - визуализатор размеров выходных файлов `webpack`
 - `npm install --save-dev eslint eslint-config-google` - общая конфигурация `ESLint` для руководства по стилю `Google JavaScript` (ES2015+)
